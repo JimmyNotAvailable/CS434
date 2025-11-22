@@ -1,0 +1,72 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor "Khách hàng" as Customer
+actor "Nhân viên CSKH/Bán hàng" as Staff
+actor "Quản trị viên" as Admin
+actor "AI Agent Layer" as AIL
+
+rectangle "Bán hàng" {
+  usecase "Mua sắm hội thoại" as UC_Conversational
+  usecase "Quản lý giỏ & Thanh toán" as UC_Checkout
+  usecase "Gợi ý/Up-Cross-sell (AI)" as UC_Reco
+}
+
+rectangle "Chăm sóc" {
+  usecase "Tạo ticket đa kênh" as UC_Ticket
+  usecase "Tự trả lời FAQ (RAG)" as UC_FAQ
+  usecase "Phân tuyến thông minh" as UC_Route
+  usecase "Tóm tắt & Handover" as UC_Handover
+}
+
+rectangle "Marketing" {
+  usecase "Hành trình cá nhân hoá" as UC_Journey
+  usecase "A/B nội dung & timing" as UC_AB
+  usecase "Nhắc giỏ bỏ quên" as UC_Abandon
+}
+
+rectangle "Vận hành" {
+  usecase "Phát hiện bất thường đơn/refund" as UC_Anomaly
+  usecase "Theo dõi đơn/Đổi-Trả" as UC_Return
+}
+
+rectangle "Phân tích/Quản trị" {
+  usecase "Dashboard hỏi-đáp (NLQ)" as UC_NLQ
+  usecase "Cảnh báo KPI realtime" as UC_Alert
+  usecase "Quản lý KB/PII/RBAC/Audit" as UC_Govern
+}
+
+' Quan hệ actor - UC
+Customer --> UC_Conversational
+Customer --> UC_Ticket
+Customer --> UC_Return
+
+Staff --> UC_Ticket
+Staff --> UC_Handover
+Staff --> UC_Journey
+Staff --> UC_Anomaly
+Staff --> UC_NLQ
+
+Admin --> UC_Journey
+Admin --> UC_Govern
+Admin --> UC_Alert
+
+' AI include/extend
+UC_Conversational .> UC_Reco : <<include>>
+UC_Ticket .> UC_Route : <<include>>
+UC_FAQ .> UC_Handover : <<extend>>
+UC_Journey .> UC_AB : <<include>>
+UC_Checkout .> UC_Anomaly : <<include>>
+UC_NLQ .> UC_Alert : <<extend>>
+
+' AI Agent tham gia các UC thông minh hoá
+AIL --> UC_Reco
+AIL --> UC_Route
+AIL --> UC_Handover
+AIL --> UC_AB
+AIL --> UC_Anomaly
+AIL --> UC_NLQ
+AIL --> UC_Alert
+AIL --> UC_FAQ
+
+@enduml

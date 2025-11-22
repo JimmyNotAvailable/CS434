@@ -1,0 +1,94 @@
+{
+  "$schema": "https://schemas.design-tokens.org/schema.json",
+  "meta": {
+    "name": "CRM UI Tokens",
+    "version": "1.0.0",
+    "generated": "2025-11-08T03:44:09.276742Z",
+    "source": "CRM UI export (Figma-like v1)"
+  },
+  "tokens": {
+    "color": {
+      "primary": {
+        "value": "#2B6CB0"
+      },
+      "secondary": {
+        "value": "#48BB78"
+      },
+      "error": {
+        "value": "#E53E3E"
+      },
+      "background": {
+        "value": "#F7FAFC"
+      },
+      "textDark": {
+        "value": "#2D3748"
+      },
+      "borderGray": {
+        "value": "#E2E8F0"
+      }
+    },
+    "font": {
+      "uiFamily": {
+        "value": "Inter"
+      },
+      "monoFamily": {
+        "value": "JetBrains Mono"
+      },
+      "h1": {
+        "value": {
+          "fontFamily": "Inter",
+          "fontWeight": 700,
+          "fontSize": 28
+        }
+      },
+      "h2": {
+        "value": {
+          "fontFamily": "Inter",
+          "fontWeight": 600,
+          "fontSize": 20
+        }
+      },
+      "body": {
+        "value": {
+          "fontFamily": "Inter",
+          "fontWeight": 400,
+          "fontSize": 16
+        }
+      },
+      "mono": {
+        "value": {
+          "fontFamily": "JetBrains Mono",
+          "fontWeight": 500,
+          "fontSize": 14
+        }
+      }
+    },
+    "radius": {
+      "sm": {
+        "value": 8
+      },
+      "md": {
+        "value": 12
+      },
+      "lg": {
+        "value": 16
+      }
+    },
+    "spacing": {
+      "sm": {
+        "value": 8
+      },
+      "md": {
+        "value": 16
+      },
+      "lg": {
+        "value": 24
+      }
+    },
+    "shadow": {
+      "card": {
+        "value": "0px 4px 12px rgba(0,0,0,0.06)"
+      }
+    }
+  }
+}

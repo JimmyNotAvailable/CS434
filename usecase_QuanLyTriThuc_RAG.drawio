@@ -1,0 +1,84 @@
+﻿<mxfile host="65bd71144e">
+    <diagram id="kb_rag_uc" name="Use Case - KB &amp; RAG Health">
+        <mxGraphModel dx="827" dy="1779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="actor_admin" value="Quản trị viên" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="195" width="50" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="sys_boundary" value="CRM Knowledge &amp;amp; RAG Subsystem" style="swimlane;horizontal=0;rounded=1;html=1;container=1;collapsible=0;whiteSpace=wrap;labelPosition=top;verticalAlign=top;fontStyle=1;labelBackgroundColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="-210" width="990" height="850" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc_kb_main" value="Quản lý tri thức (KB)" style="ellipse;whiteSpace=wrap;html=1;" parent="sys_boundary" vertex="1">
+                    <mxGeometry x="210" y="540" width="240" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc_rag_main" value="RAG Health Monitoring" style="ellipse;whiteSpace=wrap;html=1;" parent="sys_boundary" vertex="1">
+                    <mxGeometry x="140" y="130" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc_kb_tag" value="Gắn thẻ &amp; Đánh chỉ mục" style="ellipse;whiteSpace=wrap;html=1;" parent="sys_boundary" vertex="1">
+                    <mxGeometry x="30" y="740" width="240" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc_kb_approve" value="Phê duyệt &amp; Công bố" style="ellipse;whiteSpace=wrap;html=1;" parent="sys_boundary" vertex="1">
+                    <mxGeometry x="580" y="570" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc_reindex" value="Kích hoạt re-index" style="ellipse;whiteSpace=wrap;html=1;dashed=0;" parent="sys_boundary" vertex="1">
+                    <mxGeometry x="480" y="740" width="200" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc_rag_view" value="Xem chỉ số RAG" style="ellipse;whiteSpace=wrap;html=1;" parent="sys_boundary" vertex="1">
+                    <mxGeometry x="560" y="40" width="190" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc_rag_threshold" value="Đặt ngưỡng cảnh báo" style="ellipse;whiteSpace=wrap;html=1;" parent="sys_boundary" vertex="1">
+                    <mxGeometry x="370" y="220" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc_rag_alert" value="Sinh cảnh báo bất thường" style="ellipse;whiteSpace=wrap;html=1;" parent="sys_boundary" vertex="1">
+                    <mxGeometry x="720" y="220" width="260" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="inc_kb_tag" value="«include»" style="dashed=1;endArrow=open;endFill=0;html=1;strokeWidth=2;" parent="sys_boundary" source="uc_kb_main" target="uc_kb_tag" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="inc_kb_approve" value="«include»" style="dashed=1;endArrow=open;endFill=0;html=1;strokeWidth=2;" parent="sys_boundary" source="uc_kb_main" target="uc_kb_approve" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="inc_rag_threshold" value="«include»" style="dashed=1;endArrow=open;endFill=0;html=1;strokeWidth=2;" parent="sys_boundary" source="uc_rag_main" target="uc_rag_threshold" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="inc_rag_view" value="«include»" style="dashed=1;endArrow=open;endFill=0;html=1;strokeWidth=2;" parent="sys_boundary" source="uc_rag_main" target="uc_rag_view" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ext_rag_alert" value="«extend»" style="dashed=1;endArrow=open;endFill=0;html=1;strokeWidth=2;" parent="sys_boundary" source="uc_rag_alert" target="uc_rag_threshold" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1040" y="420" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ext_kb_reindex" value="«extend»" style="dashed=1;endArrow=open;endFill=0;html=1;strokeWidth=2;" parent="sys_boundary" source="uc_reindex" target="uc_kb_tag" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc_kb_edit" value="Tạo/Chỉnh sửa/Xóa bài viết" style="ellipse;whiteSpace=wrap;html=1;" parent="sys_boundary" vertex="1">
+                    <mxGeometry x="340" y="420" width="280" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="inc_kb_edit" value="«include»" style="dashed=1;endArrow=open;endFill=0;html=1;strokeWidth=2;" parent="sys_boundary" source="uc_kb_main" target="uc_kb_edit" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge_actor_threshold" style="endArrow=none;html=1;" parent="sys_boundary" source="uc_kb_edit" target="uc_rag_threshold" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge_actor_kb" style="endArrow=none;html=1;" parent="1" source="actor_admin" target="uc_kb_main" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge_actor_rag" style="endArrow=none;html=1;" parent="1" source="actor_admin" target="uc_rag_main" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge_actor_edit" style="endArrow=none;html=1;" parent="1" source="actor_admin" target="uc_kb_edit" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="endArrow=none;html=1;" parent="1" source="actor_admin" target="uc_kb_edit" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="130" y="250" as="sourcePoint"/>
+                        <mxPoint x="980" y="237" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

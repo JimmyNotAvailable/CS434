@@ -1,0 +1,34 @@
+<mxfile host="65bd71144e">
+    <diagram id="HwsCtjq0lEU-69SCv1lJ" name="Page-1">
+        <mxGraphModel dx="1445" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="ER" name="ER">
+        <mxGraphModel dx="1100" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <!-- Entity: KhachHang -->
+                <mxCell id="kh" value="&lt;b&gt;KhachHang&lt;/b&gt;&#xa;— MaKH (PK)&#xa;TenKH&#xa;DiaChiKH&#xa;DienThoaiKH&#xa;TaiKhoanKH" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1a73e8;fillColor=#e8f0fe;fontSize=13;align=left;spacing=8;container=1;collapsible=0;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="190" width="240" height="160" as="geometry"/>
+                </mxCell>
+                <!-- Entity: HoaDon -->
+                <mxCell id="hd" value="&lt;b&gt;HoaDon&lt;/b&gt;&#xa;— MaHD (PK)&#xa;NgayHD&#xa;MaKH (FK)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1a73e8;fillColor=#e8f0fe;fontSize=13;align=left;spacing=8;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="80" width="240" height="140" as="geometry"/>
+                </mxCell>
+                <!-- Entity: Hang -->
+                <mxCell id="hh" value="&lt;b&gt;Hang&lt;/b&gt;&#xa;— MaH (PK)&#xa;TenH&#xa;DacDiemH&#xa;NoiSanXuat" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1a73e8;fillColor=#e8f0fe;fontSize=13;align=left;spacing=8;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="310" width="240" height="160" as="geometry"/>
+                </mxCell>
+                <!-- Associative Entity: ChiTietHD -->
+                <mxCell id="ct" value="&lt;b&gt;ChiTietHD&lt;/b&gt;&#xa;— MaHD (PK, FK)&#xa;— MaH (PK, FK)&#xa;SoLuong&#xa;DonGia" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0b8043;fillColor=#e6f4ea;fontSize=13;align=left;spacing=8;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="300" width="240" height="170" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

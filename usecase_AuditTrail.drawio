@@ -1,0 +1,118 @@
+<mxfile host="65bd71144e">
+    <diagram id="access_pii_audit_uc" name="Use Case - Access/PII/Audit Management (Final)">
+        <mxGraphModel dx="1034" dy="974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="actor_admin" value="Quản trị viên" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="100" width="50" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="sys_boundary" value="Access Control • PII Security • Audit Trail Subsystem" style="swimlane;horizontal=0;rounded=1;html=1;container=1;collapsible=0;whiteSpace=wrap;labelPosition=top;verticalAlign=top;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="80" width="1450" height="780" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc_main" value="Quản trị quyền/PII &amp; audit trail" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sys_boundary" vertex="1">
+                    <mxGeometry x="540" y="25" width="320" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc_rbac_mgmt" value="Quản lý tài khoản &amp; phân quyền (RBAC)" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sys_boundary" vertex="1">
+                    <mxGeometry x="60" y="115" width="320" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc_policy_cfg" value="Cấu hình chính sách truy cập (MFA/mật khẩu/phiên)" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sys_boundary" vertex="1">
+                    <mxGeometry x="310" y="250" width="320" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc_pii_security" value="Bảo mật &amp; quản lý thông tin PII" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sys_boundary" vertex="1">
+                    <mxGeometry x="1040" y="30" width="320" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc_pii_mask_encrypt" value="PII masking &amp; encryption policy" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sys_boundary" vertex="1">
+                    <mxGeometry x="810" y="195" width="210" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc_pii_scope" value="Kiểm soát phạm vi truy cập PII (scope)" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sys_boundary" vertex="1">
+                    <mxGeometry x="920" y="400" width="210" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc_audit_trail" value="Theo dõi nhật ký &amp; Audit Trail" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sys_boundary" vertex="1">
+                    <mxGeometry x="540" y="395" width="320" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc_audit_view" value="Xem/Tìm kiếm nhật ký (who/when/what/IP)" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sys_boundary" vertex="1">
+                    <mxGeometry x="280" y="530" width="320" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc_audit_export" value="Xuất báo cáo Audit (định kỳ/theo bộ lọc)" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sys_boundary" vertex="1">
+                    <mxGeometry x="810" y="530" width="320" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc_temp_lock" value="Tạm khóa tài khoản" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sys_boundary" vertex="1">
+                    <mxGeometry x="110" y="680" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc_pii_request" value="Xử lý yêu cầu PII (Export/Erase)" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sys_boundary" vertex="1">
+                    <mxGeometry x="1150" y="300" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc_sec_alert" value="Cảnh báo bảo mật (bất thường/MFA/Export raw)" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sys_boundary" vertex="1">
+                    <mxGeometry x="460" y="680" width="320" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="inc_rbac" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="dashed=1;endArrow=open;endFill=0;strokeWidth=2;html=1;fontStyle=1;labelBackgroundColor=#ffffff;fontSize=12;" parent="sys_boundary" source="uc_main" target="uc_rbac_mgmt" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint y="-20" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="inc_policy_cfg" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="dashed=1;endArrow=open;endFill=0;strokeWidth=2;html=1;fontStyle=1;labelBackgroundColor=#ffffff;fontSize=12;" parent="sys_boundary" source="uc_main" target="uc_policy_cfg" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-6" y="-18" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="inc_pii_security" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="dashed=1;endArrow=open;endFill=0;strokeWidth=2;html=1;fontStyle=1;labelBackgroundColor=#ffffff;fontSize=12;" parent="sys_boundary" source="uc_main" target="uc_pii_security" edge="1">
+                    <mxGeometry x="0.0667" y="18" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="inc_audit_trail" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="dashed=1;endArrow=open;endFill=0;strokeWidth=2;html=1;fontStyle=1;labelBackgroundColor=#ffffff;fontSize=12;" parent="sys_boundary" source="uc_main" target="uc_audit_trail" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint y="-20" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="inc_rbac_policy" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="dashed=1;endArrow=open;endFill=0;strokeWidth=2;html=1;fontStyle=1;labelBackgroundColor=#ffffff;fontSize=12;" parent="sys_boundary" source="uc_rbac_mgmt" target="uc_policy_cfg" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="20" y="-14" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="inc_pii_mask" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="dashed=1;endArrow=open;endFill=0;strokeWidth=2;html=1;fontStyle=1;labelBackgroundColor=#ffffff;fontSize=12;" parent="sys_boundary" source="uc_pii_security" target="uc_pii_mask_encrypt" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-16" y="-14" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="inc_pii_scope" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="dashed=1;endArrow=open;endFill=0;strokeWidth=2;html=1;fontStyle=1;labelBackgroundColor=#ffffff;fontSize=12;" parent="sys_boundary" source="uc_pii_security" target="uc_pii_scope" edge="1">
+                    <mxGeometry x="-0.1264" y="10" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="inc_audit_view" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="dashed=1;endArrow=open;endFill=0;strokeWidth=2;html=1;fontStyle=1;labelBackgroundColor=#ffffff;fontSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="sys_boundary" source="uc_audit_trail" target="uc_audit_view" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-10" y="-16" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="inc_audit_export" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="dashed=1;endArrow=open;endFill=0;strokeWidth=2;html=1;fontStyle=1;labelBackgroundColor=#ffffff;fontSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="sys_boundary" source="uc_audit_trail" target="uc_audit_export" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="10" y="-16" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ext_temp_lock" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="dashed=1;endArrow=open;endFill=0;strokeWidth=2;html=1;fontStyle=1;labelBackgroundColor=#ffffff;fontSize=12;" parent="sys_boundary" source="uc_temp_lock" target="uc_rbac_mgmt" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="8" y="-18" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ext_pii_request" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="dashed=1;endArrow=open;endFill=0;strokeWidth=2;html=1;fontStyle=1;labelBackgroundColor=#ffffff;fontSize=12;" parent="sys_boundary" source="uc_pii_request" target="uc_pii_security" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-8" y="-18" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ext_sec_alert" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="dashed=1;endArrow=open;endFill=0;strokeWidth=2;html=1;fontStyle=1;labelBackgroundColor=#ffffff;fontSize=12;entryX=0.462;entryY=1.031;entryDx=0;entryDy=0;entryPerimeter=0;" parent="sys_boundary" source="uc_sec_alert" target="uc_audit_view" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint y="-18" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge_actor_main" value="" style="endArrow=none;html=1;" parent="1" source="actor_admin" target="uc_main" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge_actor_rbac" value="" style="endArrow=none;html=1;" parent="1" source="actor_admin" target="uc_rbac_mgmt" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

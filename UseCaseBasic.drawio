@@ -1,0 +1,192 @@
+<mxfile host="65bd71144e">
+    <diagram id="crm_ai_agent_usecase" name="CRM AI Agent Use Case">
+        <mxGraphModel dx="1343" dy="2379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1600" background="#FFFFFF" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="Customer" value="Khách hàng" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="-830" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Staff" value="Nhân viên CSKH/Bán hàng" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="-60" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Admin" value="Quản trị viên" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="685" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="AIL" value="AI Agent" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1500" y="-70" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Sales" value="Bán hàng" style="swimlane;rounded=1;horizontal=0;fontStyle=1;startSize=26;" parent="1" vertex="1">
+                    <mxGeometry x="535" y="-1120" width="545" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="UC_Conversational" value="Mua sắm hội thoại" style="ellipse;whiteSpace=wrap;html=1;" parent="Sales" vertex="1">
+                    <mxGeometry x="45" y="10" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="UC_Checkout" value="Quản lý giỏ &amp; Thanh toán" style="ellipse;whiteSpace=wrap;html=1;" parent="Sales" vertex="1">
+                    <mxGeometry x="307.5" y="100" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="UC_Reco" value="Gợi ý/Up-Cross-sell (AI)" style="ellipse;whiteSpace=wrap;html=1;dashed=1;strokeColor=#000000;" parent="Sales" vertex="1">
+                    <mxGeometry x="55" y="170" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="Support" value="Chăm sóc" style="swimlane;rounded=1;horizontal=0;fontStyle=1;startSize=26;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="-740" width="550" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="UC_Ticket" value="Tạo ticket đa kênh" style="ellipse;whiteSpace=wrap;html=1;" parent="Support" vertex="1">
+                    <mxGeometry x="110" y="10" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="UC_Route" value="Phân tuyến thông minh" style="ellipse;whiteSpace=wrap;html=1;dashed=1;strokeColor=#000000;" parent="Support" vertex="1">
+                    <mxGeometry x="65" y="150" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="UC_Handover" value="Tóm tắt &amp; Handover" style="ellipse;whiteSpace=wrap;html=1;dashed=1;strokeColor=#000000;" parent="Support" vertex="1">
+                    <mxGeometry x="65" y="240" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="UC_FAQ" value="Tự trả lời FAQ (RAG)" style="ellipse;whiteSpace=wrap;html=1;" parent="Support" vertex="1">
+                    <mxGeometry x="320" y="120" width="125" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge14" value="&lt;&lt;extend&gt;&gt;" style="dashed=1;endArrow=open;endFill=0;rounded=1;strokeColor=#000000;" parent="Support" source="UC_FAQ" target="UC_Handover" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Marketing" value="Marketing" style="swimlane;rounded=1;horizontal=0;fontStyle=1;startSize=26;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="-235" width="550" height="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="UC_Journey" value="Hành trình cá nhân hoá" style="ellipse;whiteSpace=wrap;html=1;" parent="Marketing" vertex="1">
+                    <mxGeometry x="230" y="160" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="UC_AB" value="A/B nội dung &amp; timing" style="ellipse;whiteSpace=wrap;html=1;dashed=1;strokeColor=#000000;" parent="Marketing" vertex="1">
+                    <mxGeometry x="50" y="30" width="145" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="UC_Abandon" value="Nhắc giỏ bỏ quên" style="ellipse;whiteSpace=wrap;html=1;" parent="Marketing" vertex="1">
+                    <mxGeometry x="70" y="275" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="Ops" value="Vận hành" style="swimlane;rounded=1;horizontal=0;fontStyle=1;startSize=26;" parent="1" vertex="1">
+                    <mxGeometry x="537.5" y="300" width="540" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="UC_Anomaly" value="Phát hiện bất thường đơn/refund" style="ellipse;whiteSpace=wrap;html=1;dashed=1;strokeColor=#000000;" parent="Ops" vertex="1">
+                    <mxGeometry x="325" y="50" width="195" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="UC_Return" value="Theo dõi đơn/Đổi-Trả" style="ellipse;whiteSpace=wrap;html=1;" parent="Ops" vertex="1">
+                    <mxGeometry x="70" y="50" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge1" style="endArrow=none;rounded=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Customer" target="UC_Conversational" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge2" style="endArrow=none;rounded=1;" parent="1" source="Customer" target="UC_Ticket" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge3" style="endArrow=none;rounded=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Customer" target="UC_Return" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge4" style="endArrow=none;rounded=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Staff" target="UC_Ticket" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge5" style="endArrow=none;rounded=1;" parent="1" source="Staff" target="UC_Handover" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge6" style="endArrow=none;rounded=1;" parent="1" source="Staff" target="UC_Journey" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge7" style="endArrow=none;rounded=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Staff" target="UC_Anomaly" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="820" y="355" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge9" style="endArrow=none;rounded=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Admin" target="UC_Journey" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="879" y="10" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge10" style="endArrow=none;rounded=1;" parent="1" source="Admin" target="UC_Govern" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge11" style="endArrow=none;rounded=1;" parent="1" source="Admin" target="UC_Alert" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge12" value="&lt;&lt;include&gt;&gt;" style="dashed=1;endArrow=open;endFill=0;rounded=1;strokeColor=#000000;" parent="1" source="UC_Conversational" target="UC_Reco" edge="1">
+                    <mxGeometry x="-0.0909" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge13" value="&lt;&lt;include&gt;&gt;" style="dashed=1;endArrow=open;endFill=0;rounded=1;strokeColor=#000000;" parent="1" source="UC_Ticket" target="UC_Route" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge15" value="&lt;&lt;include&gt;&gt;" style="dashed=1;endArrow=open;endFill=0;rounded=1;strokeColor=#000000;" parent="1" source="UC_Journey" target="UC_AB" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge16" value="&lt;&lt;include&gt;&gt;" style="dashed=1;endArrow=open;endFill=0;rounded=1;strokeColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="UC_FAQ" target="UC_Anomaly" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1000" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge18" style="endArrow=none;rounded=1;strokeColor=#000000;" parent="1" source="AIL" target="UC_Reco" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge19" style="endArrow=none;rounded=1;strokeColor=#000000;" parent="1" source="AIL" target="UC_Route" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge20" style="endArrow=none;rounded=1;strokeColor=#000000;" parent="1" source="AIL" target="UC_Handover" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge21" style="endArrow=none;rounded=1;strokeColor=#000000;" parent="1" source="AIL" target="UC_AB" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge22" style="endArrow=none;rounded=1;strokeColor=#000000;" parent="1" source="AIL" target="UC_Anomaly" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge23" style="endArrow=none;rounded=1;strokeColor=#000000;" parent="1" source="AIL" target="UC_NLQ" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge25" style="endArrow=none;rounded=1;strokeColor=#000000;" parent="1" source="AIL" target="UC_FAQ" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="endArrow=none;rounded=1;strokeColor=#000000;fillColor=#000000;" parent="1" source="AIL" target="UC_NLQ" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2140" y="2" as="sourcePoint"/>
+                        <mxPoint x="784" y="1103" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="" style="endArrow=none;rounded=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Staff" target="Analytics" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="140" y="-6" as="sourcePoint"/>
+                        <mxPoint x="779" y="1011" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Analytics" value="Phân tích/Quản trị" style="swimlane;rounded=1;horizontal=0;fontStyle=1;startSize=26;" parent="1" vertex="1">
+                    <mxGeometry x="535" y="610" width="545" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="UC_Alert" value="Cảnh báo KPI realtime" style="ellipse;whiteSpace=wrap;html=1;dashed=1;strokeColor=#000000;" parent="Analytics" vertex="1">
+                    <mxGeometry x="65" y="30" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="UC_Govern" value="Quản lý KB/PII/RBAC/Audit" style="ellipse;whiteSpace=wrap;html=1;" parent="Analytics" vertex="1">
+                    <mxGeometry x="145" y="150" width="200" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="UC_NLQ" value="Dashboard hỏi-đáp (NLQ)" style="ellipse;whiteSpace=wrap;html=1;" parent="Analytics" vertex="1">
+                    <mxGeometry x="355" y="130" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge17" value="&lt;&lt;extent&gt;&gt;" style="dashed=1;endArrow=open;endFill=0;rounded=1;strokeColor=#000000;" parent="Analytics" source="UC_NLQ" target="UC_Alert" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge24" style="endArrow=none;rounded=1;strokeColor=#000000;" parent="Analytics" source="UC_NLQ" target="UC_Alert" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="dashed=1;endArrow=open;endFill=0;rounded=1;strokeColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="UC_Checkout" target="UC_FAQ" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="905" y="-950" as="sourcePoint"/>
+                        <mxPoint x="905" y="320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge_abandon_extend" value="&lt;&lt;extend&gt;&gt;" style="dashed=1;endArrow=open;endFill=0;rounded=1;strokeColor=#000000;" parent="1" source="UC_Abandon" target="UC_Checkout" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge_abandon_include" value="&lt;&lt;include&gt;&gt;" style="dashed=1;endArrow=open;endFill=0;rounded=1;strokeColor=#000000;" parent="1" source="UC_Abandon" target="UC_AB" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge_customer_abandon" style="endArrow=none;rounded=1;" parent="1" source="Customer" target="UC_Abandon" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge_ai_abandon" style="endArrow=none;rounded=1;strokeColor=#000000;" parent="1" source="AIL" target="UC_Abandon" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

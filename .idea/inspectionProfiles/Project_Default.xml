@@ -1,0 +1,25 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="pymongo" />
+          <option value="requests" />
+          <option value="scikit-learn" />
+          <option value="numpy" />
+          <option value="pandas" />
+          <option value="flask" />
+          <option value="plotly" />
+          <option value="schedule" />
+          <option value="matplotlib" />
+          <option value="seaborn" />
+          <option value="discord.py" />
+          <option value="python-dotenv" />
+          <option value="joblib" />
+          <option value="psutil" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

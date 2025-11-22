@@ -1,0 +1,372 @@
+<mxfile host="65bd71144e">
+    <diagram id="crm-erd" name="CRM_CSKH_ERD">
+        <mxGraphModel dx="216460" dy="106060" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2600" pageHeight="3120" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="539" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="496" target="498" parent="1"/>
+                <mxCell id="540" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="496" target="499" parent="1"/>
+                <mxCell id="541" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="497" target="499" parent="1"/>
+                <mxCell id="542" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="503" target="504" parent="1"/>
+                <mxCell id="543" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="505" target="506" parent="1"/>
+                <mxCell id="544" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="504" target="506" parent="1"/>
+                <mxCell id="545" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="502" target="507" parent="1"/>
+                <mxCell id="546" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="507" target="508" parent="1"/>
+                <mxCell id="547" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="504" target="508" parent="1"/>
+                <mxCell id="548" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="507" target="509" parent="1"/>
+                <mxCell id="549" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="507" target="510" parent="1"/>
+                <mxCell id="550" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="507" target="511" parent="1"/>
+                <mxCell id="551" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="512" target="513" parent="1"/>
+                <mxCell id="552" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="513" target="514" parent="1"/>
+                <mxCell id="553" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="514" target="515" parent="1"/>
+                <mxCell id="554" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="516" target="517" parent="1"/>
+                <mxCell id="555" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="516" target="518" parent="1"/>
+                <mxCell id="556" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="516" target="519" parent="1"/>
+                <mxCell id="557" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="516" target="520" parent="1"/>
+                <mxCell id="558" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="520" target="521" parent="1"/>
+                <mxCell id="559" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="512" target="525" parent="1"/>
+                <mxCell id="560" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="524" target="525" parent="1"/>
+                <mxCell id="561" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="523" target="525" parent="1"/>
+                <mxCell id="562" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="526" target="529" parent="1"/>
+                <mxCell id="563" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="526" target="528" parent="1"/>
+                <mxCell id="564" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="527" target="528" parent="1"/>
+                <mxCell id="565" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="526" target="530" parent="1"/>
+                <mxCell id="566" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="537" target="538" parent="1"/>
+                <mxCell id="573" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="522" target="572" parent="1"/>
+                <mxCell id="617" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="574" target="576" parent="1"/>
+                <mxCell id="618" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="574" target="577" parent="1"/>
+                <mxCell id="619" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="575" target="577" parent="1"/>
+                <mxCell id="620" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="581" target="582" parent="1"/>
+                <mxCell id="621" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="583" target="584" parent="1"/>
+                <mxCell id="622" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="582" target="584" parent="1"/>
+                <mxCell id="623" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="580" target="585" parent="1"/>
+                <mxCell id="624" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="585" target="586" parent="1"/>
+                <mxCell id="625" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="582" target="586" parent="1"/>
+                <mxCell id="626" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="585" target="587" parent="1"/>
+                <mxCell id="627" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="585" target="588" parent="1"/>
+                <mxCell id="628" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="585" target="589" parent="1"/>
+                <mxCell id="629" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="590" target="591" parent="1"/>
+                <mxCell id="630" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="591" target="592" parent="1"/>
+                <mxCell id="631" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="592" target="593" parent="1"/>
+                <mxCell id="632" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="594" target="595" parent="1"/>
+                <mxCell id="633" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="594" target="596" parent="1"/>
+                <mxCell id="634" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="594" target="597" parent="1"/>
+                <mxCell id="635" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="594" target="598" parent="1"/>
+                <mxCell id="636" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="598" target="599" parent="1"/>
+                <mxCell id="637" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="590" target="603" parent="1"/>
+                <mxCell id="638" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="602" target="603" parent="1"/>
+                <mxCell id="639" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="601" target="603" parent="1"/>
+                <mxCell id="640" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="604" target="607" parent="1"/>
+                <mxCell id="641" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="604" target="606" parent="1"/>
+                <mxCell id="642" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="605" target="606" parent="1"/>
+                <mxCell id="643" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="604" target="608" parent="1"/>
+                <mxCell id="644" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="615" target="616" parent="1"/>
+                <mxCell id="651" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="600" target="650" parent="1"/>
+                <mxCell id="652" value="&#xa;&#xa;&#xa;&#xa;Roles&#xa;--&#xa;[PK] id: UUID&#xa;code: TEXT (U)&#xa;name: TEXT" style="shape=swimlane;rounded=1;horizontal=1;childLayout=stackLayout;startSize=26;html=0;swimlaneFillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="-101840" y="-54165" width="220" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="653" value="&#xa;&#xa;&#xa;&#xa;Permissions&#xa;&#xa;[PK] id: UUID&#xa;code: TEXT (U)&#xa;name: TEXT" style="shape=swimlane;rounded=1;horizontal=1;childLayout=stackLayout;startSize=26;html=0;swimlaneFillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="-101840" y="-53985" width="240" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="654" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;User_Roles&#xa;&#xa;&#xa;&#xa;[PK] (user_id, role_id)&#xa;[FK] user_id -&gt; Users.id&#xa;[FK] role_id -&gt; Roles.id" style="shape=swimlane;rounded=1;horizontal=1;childLayout=stackLayout;startSize=26;html=0;swimlaneFillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="-101840" y="-53805" width="240" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="655" value="&#xa;&#xa;&#xa;&#xa;&#xa;Role_Permissions&#xa;&#xa;&#xa;[PK] (role_id, perm_id)&#xa;[FK] role_id -&gt; Roles.id&#xa;[FK] perm_id -&gt; Permissions.id" style="shape=swimlane;rounded=1;horizontal=1;childLayout=stackLayout;startSize=26;html=0;swimlaneFillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="-101840" y="-53625" width="260" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="656" value="&#xa;&#xa;&#xa;&#xa;&#xa;Staff_Profiles&#xa;[PK/FK] user_id -&gt; Users.id&#xa;employee_code: TEXT (U)&#xa;position: TEXT&#xa;hired_at: DATE" style="shape=swimlane;rounded=1;horizontal=1;childLayout=stackLayout;startSize=26;html=0;swimlaneFillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="-102260" y="-54145" width="260" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="657" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Customer_Profiles&#xa;&#xa;[PK/FK] user_id -&gt; Users.id&#xa;registered_at: TIMESTAMPTZ&#xa;loyalty_point: INT&#xa;dob: DATE&#xa;gender: {M,F,O}" style="shape=swimlane;rounded=1;horizontal=1;childLayout=stackLayout;startSize=26;html=0;swimlaneFillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="-102250" y="-53935" width="260" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="658" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Addresses&#xa;  &#xa;[PK] id: UUID&#xa;[FK] user_id -&gt; Users.id&#xa;label, line1, line2, city, state, postal, country&#xa;is_default: BOOL&#xa;created_at, updated_at" style="shape=swimlane;rounded=1;horizontal=1;childLayout=stackLayout;startSize=26;html=0;swimlaneFillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="-102240" y="-53685" width="300" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="659" value="&#xa;&#xa;&#xa;&#xa;&#xa;Categories&#xa;[PK] id: UUID&#xa;code: TEXT (U)&#xa;name: TEXT&#xa;description: TEXT" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-101420" y="-54165" width="240" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="660" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Products&#xa;--&#xa;[PK] id: UUID&#xa;sku: TEXT (U)&#xa;name: TEXT&#xa;price: NUMERIC(12,2)&#xa;category_id -&gt; Categories.id&#xa;created_at, updated_at" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-101420" y="-53975" width="280" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="661" value="&#xa;&#xa;&#xa;&#xa;Warehouses&#xa;--&#xa;[PK] id: UUID&#xa;name: TEXT&#xa;address: TEXT" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-101420" y="-53735" width="220" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="662" value="&#xa;&#xa;&#xa;&#xa;Inventory&#xa;--&#xa;[PK] (warehouse_id, product_id)&#xa;warehouse_id -&gt; Warehouses.id&#xa;product_id -&gt; Products.id&#xa;quantity: INT" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-101420" y="-53565" width="260" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="663" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Orders&#xa;--&#xa;[PK] id: UUID&#xa;customer_id -&gt; Users.id&#xa;shipping_address -&gt; Addresses.id&#xa;status: {PENDING,CONFIRMED,&#xa;FULFILLING,SHIPPED,COMPLETED,CANCELLED}&#xa;subtotal, shipping_fee, discount, total: NUMERIC&#xa;payment_method: {CASH,BANK_TRANSFER,&#xa;CREDIT_CARD,EWALLET}&#xa;created_at: TIMESTAMPTZ&#xa;note: TEXT" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="-101440" y="-53145" width="360" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="664" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Order_Items&#xa;&#xa;[PK] id: UUID&#xa;order_id -&gt; Orders.id&#xa;product_id -&gt; Products.id&#xa;quantity: INT&#xa;unit_price: NUMERIC&#xa;line_total: NUMERIC (generated)" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="-101380" y="-52835" width="300" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="665" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Payments&#xa;  &#xa;[PK] id: UUID&#xa;order_id -&gt; Orders.id&#xa;paid_at: TIMESTAMPTZ&#xa;method: ENUM&#xa;status: ENUM&#xa;amount: NUMERIC&#xa;gateway_ref: TEXT" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="-101360" y="-52535" width="260" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="666" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Shipments&#xa;  &#xa;[PK] id: UUID&#xa;order_id -&gt; Orders.id&#xa;carrier: TEXT&#xa;tracking_no: TEXT&#xa;status: ENUM&#xa;shipped_at: TIMESTAMPTZ&#xa;delivered_at: TIMESTAMPTZ" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="-101380" y="-52295" width="280" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="667" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Returns &#xa;   &#xa;[PK] id: UUID&#xa;order_id -&gt; Orders.id&#xa;reason: TEXT&#xa;status: ENUM&#xa;requested_at: TIMESTAMPTZ&#xa;processed_at: TIMESTAMPTZ" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="-101370" y="-51985" width="260" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="668" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Tickets&#xa;&#xa;[PK] id: UUID&#xa;customer_id -&gt; Users.id&#xa;channel_id -&gt; Channels.id&#xa;subject: TEXT&#xa;content: TEXT&#xa;status: {NEW,IN_PROGRESS,RESOLVED,CLOSED}&#xa;priority: {LOW,MEDIUM,HIGH,URGENT}&#xa;assignee_id -&gt; Users.id&#xa;created_at: TIMESTAMPTZ" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="-101830" y="-53425" width="340" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="669" value="&#xa;&#xa;&#xa;&#xa;&#xa;Conversations&#xa;&#xa;[PK] id: UUID&#xa;ticket_id -&gt; Tickets.id&#xa;started_at: TIMESTAMPTZ&#xa;ended_at: TIMESTAMPTZ" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="-101810" y="-53075" width="260" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="670" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Messages&#xa;&#xa;&#xa;[PK] id: UUID&#xa;conversation_id -&gt; Conversations.id&#xa;sender_id -&gt; Users.id&#xa;channel_id -&gt; Channels.id&#xa;kind: {CHATBOT,AGENT,CUSTOMER}&#xa;content: TEXT&#xa;sent_at: TIMESTAMPTZ" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="-101850" y="-52795" width="320" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="671" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Attachments&#xa;--&#xa;[PK] id: UUID&#xa;message_id -&gt; Messages.id&#xa;file_name: TEXT&#xa;mime_type: TEXT&#xa;url: TEXT&#xa;size_bytes: BIGINT" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="-101820" y="-52315" width="280" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="672" value="Journeys&#xa;--&#xa;[PK] id: UUID&#xa;name: TEXT&#xa;status: {DRAFT,ACTIVE,PAUSED,STOPPED,ARCHIVED}&#xa;created_by -&gt; Users.id&#xa;created_at: TIMESTAMPTZ" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="-101000" y="-54165" width="280" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="673" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Journey_Nodes&#xa;  &#xa;[PK] id: UUID&#xa;journey_id -&gt; Journeys.id&#xa;type: {ENTRY,FILTER,WAIT,&#xa;ACTION_EMAIL,ACTION_SMS,&#xa;ACTION_TAG,EXIT}&#xa;config: JSONB" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="-101000" y="-53935" width="300" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="674" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Journey_Edges&#xa;  &#xa;[PK] id: UUID&#xa;journey_id -&gt; Journeys.id&#xa;from_node -&gt; Journey_Nodes.id&#xa;to_node -&gt; Journey_Nodes.id&#xa;condition: JSONB" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="-101010" y="-53665" width="320" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="675" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Journey_Enrollments&#xa;  &#xa;[PK] id: UUID&#xa;journey_id -&gt; Journeys.id&#xa;user_id -&gt; Users.id&#xa;status: {RUNNING,COMPLETED,EXITED,PAUSED}&#xa;enrolled_at: TIMESTAMPTZ" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="-101000" y="-53185" width="320" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="676" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Campaign_Messages&#xa;&#xa;[PK] id: UUID&#xa;journey_id -&gt; Journeys.id&#xa;channel: ENUM&#xa;subject: TEXT&#xa;body_html: TEXT" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="-100990" y="-52805" width="300" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="677" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Campaign_Sends&#xa;  &#xa;[PK] id: UUID&#xa;message_id -&gt; Campaign_Messages.id&#xa;to_user_id -&gt; Users.id&#xa;status: {QUEUED,SENT,FAILED}&#xa;scheduled_at: TIMESTAMPTZ&#xa;sent_at: TIMESTAMPTZ&#xa;provider_ref: TEXT" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="-101010" y="-52565" width="320" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="678" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Alert_Rules&#xa;&#xa;[PK] id: UUID&#xa;kpi_id -&gt; KPI_Definitions.id&#xa;op: {&gt;,&gt;=,&lt;,&lt;=,=,!=}&#xa;threshold: NUMERIC&#xa;window_minutes: INT&#xa;severity: {INFO,WARN,CRITICAL}&#xa;active: BOOL&#xa;notify_channel: ENUM" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="-99630" y="-53985" width="320" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="679" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Routing_Rules&#xa;  &#xa;[PK] id: UUID&#xa;code: TEXT (U)&#xa;name: TEXT&#xa;priority: INT&#xa;predicate: JSONB&#xa;action: JSONB" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="-100260" y="-52785" width="300" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="680" value="&#xa;&#xa;&#xa;&#xa;Work_Queues&#xa;  &#xa;[PK] id: UUID&#xa;code: TEXT (U)&#xa;name: TEXT" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="-100580" y="-52785" width="240" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="681" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Assignments&#xa;&#xa;[PK] id: UUID&#xa;ticket_id -&gt; Tickets.id&#xa;queue_id -&gt; Work_Queues.id&#xa;assignee_id -&gt; Users.id&#xa;decided_by_rule -&gt; Routing_Rules.id&#xa;decided_at: TIMESTAMPTZ" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="-100590" y="-52535" width="300" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="682" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;KB_Articles&#xa;&#xa;[PK] id: UUID&#xa;code: TEXT (U)&#xa;title: TEXT&#xa;body_md: TEXT&#xa;created_by -&gt; Users.id&#xa;created_at: TIMESTAMPTZ&#xa;updated_at: TIMESTAMPTZ&#xa;is_public: BOOL" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#e6ffe6;strokeColor=#00a65a;" vertex="1" parent="1">
+                    <mxGeometry x="-100680" y="-54180" width="330" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="683" value="&#xa;&#xa;&#xa;KB_Tags&#xa;--&#xa;[PK] id: UUID&#xa;name: TEXT (U)" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#e6ffe6;strokeColor=#00a65a;" vertex="1" parent="1">
+                    <mxGeometry x="-100650" y="-53895" width="220" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="684" value="&#xa;&#xa;&#xa;&#xa;KB_Article_Tags&#xa;&#xa;[PK] (article_id, tag_id)&#xa;article_id -&gt; KB_Articles.id&#xa;tag_id -&gt; KB_Tags.id" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#e6ffe6;strokeColor=#00a65a;" vertex="1" parent="1">
+                    <mxGeometry x="-100310" y="-53895" width="280" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="685" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;KB_Article_Revisions&#xa;&#xa;[PK] id: UUID&#xa;article_id -&gt; KB_Articles.id&#xa;version: INT (unique per article)&#xa;title: TEXT&#xa;body_md: TEXT&#xa;edited_by -&gt; Users.id&#xa;edited_at: TIMESTAMPTZ" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#e6ffe6;strokeColor=#00a65a;" vertex="1" parent="1">
+                    <mxGeometry x="-100320" y="-54165" width="330" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="686" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;KB_Feedback&#xa; &#xa;[PK] id: UUID&#xa;article_id -&gt; KB_Articles.id&#xa;user_id -&gt; Users.id&#xa;helpful: BOOL&#xa;comment: TEXT&#xa;created_at: TIMESTAMPTZ" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#e6ffe6;strokeColor=#00a65a;" vertex="1" parent="1">
+                    <mxGeometry x="-100580" y="-53275" width="300" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="687" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Consents&#xa;&#xa;[PK] id: UUID&#xa;user_id -&gt; Users.id&#xa;kind: {EMAIL_MARKETING,SMS_MARKETING,&#xa;TRACKING,PII_SHARE}&#xa;granted: BOOL&#xa;captured_at: TIMESTAMPTZ&#xa;source: TEXT" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#cfe2f3;strokeColor=#3d85c6;" vertex="1" parent="1">
+                    <mxGeometry x="-102280" y="-53085" width="360" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="688" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Interaction_Events&#xa;  &#xa;[PK] id: UUID&#xa;user_id -&gt; Users.id&#xa;ticket_id -&gt; Tickets.id&#xa;message_id -&gt; Messages.id&#xa;raw_text: TEXT&#xa;created_at: TIMESTAMPTZ" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#ffe6f2;strokeColor=#d36da3;" vertex="1" parent="1">
+                    <mxGeometry x="-99940" y="-53675" width="360" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="689" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Sentiments&#xa;&#xa;[PK] id: UUID&#xa;event_id -&gt; Interaction_Events.id (unique)&#xa;label: {NEGATIVE,NEUTRAL,POSITIVE,MIXED}&#xa;score: 0..1&#xa;model_version: TEXT&#xa;inferred_at: TIMESTAMPTZ" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#ffe6f2;strokeColor=#d36da3;" vertex="1" parent="1">
+                    <mxGeometry x="-99930" y="-52905" width="340" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="690" value="&#xa;&#xa;&#xa;&#xa;&#xa;ML_Models&#xa;&#xa;[PK] id: UUID&#xa;name: TEXT&#xa;version: TEXT (unique with name)&#xa;created_at: TIMESTAMPTZ" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#ffe6f2;strokeColor=#d36da3;" vertex="1" parent="1">
+                    <mxGeometry x="-99890" y="-52555" width="260" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="691" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Predictions&#xa;&#xa;[PK] id: UUID&#xa;model_id -&gt; ML_Models.id&#xa;entity_table: TEXT&#xa;entity_id: UUID&#xa;label: TEXT&#xa;score: 0..1&#xa;created_at: TIMESTAMPTZ" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#ffe6f2;strokeColor=#d36da3;" vertex="1" parent="1">
+                    <mxGeometry x="-99920" y="-52205" width="320" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="692" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Analytics_Queue&#xa;&#xa;[PK] id: UUID&#xa;data_kind: TEXT&#xa;payload: JSONB&#xa;status: {PENDING,SENT,ERROR}&#xa;created_at: TIMESTAMPTZ&#xa;sent_at: TIMESTAMPTZ&#xa;error_msg: TEXT" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#d9ead3;strokeColor=#6aa84f;" vertex="1" parent="1">
+                    <mxGeometry x="-100350" y="-52235" width="340" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="693" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Webhooks&#xa;&#xa;[PK] id: UUID&#xa;name: TEXT&#xa;target_url: TEXT&#xa;secret: TEXT&#xa;active: BOOL" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#d9ead3;strokeColor=#6aa84f;" vertex="1" parent="1">
+                    <mxGeometry x="-100740" y="-52185" width="280" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="694" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Webhook_Events&#xa;&#xa;[PK] id: UUID&#xa;webhook_id -&gt; Webhooks.id&#xa;topic: TEXT&#xa;payload: JSONB&#xa;delivered_at: TIMESTAMPTZ&#xa;status: {PENDING,SENT,FAILED}&#xa;error_msg: TEXT" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#d9ead3;strokeColor=#6aa84f;" vertex="1" parent="1">
+                    <mxGeometry x="-100320" y="-51815" width="320" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="695" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="673" target="674" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="696" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="668" target="688" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-99810" y="-53295"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="697" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="670" target="688" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-100040" y="-52845"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="698" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="688" target="689" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="699" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" source="690" target="691" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="700" value="&#xa;&#xa;&#xa;&#xa;Roles&#xa;--&#xa;[PK] id: UUID&#xa;code: TEXT (U)&#xa;name: TEXT" style="shape=swimlane;rounded=1;horizontal=1;childLayout=stackLayout;startSize=26;html=0;swimlaneFillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="-13530" y="-9135" width="220" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="701" value="&#xa;&#xa;&#xa;&#xa;Permissions&#xa;&#xa;[PK] id: UUID&#xa;code: TEXT (U)&#xa;name: TEXT" style="shape=swimlane;rounded=1;horizontal=1;childLayout=stackLayout;startSize=26;html=0;swimlaneFillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="-13530" y="-8955" width="240" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="702" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;User_Roles&#xa;&#xa;&#xa;&#xa;[PK] (user_id, role_id)&#xa;[FK] user_id -&gt; Users.id&#xa;[FK] role_id -&gt; Roles.id" style="shape=swimlane;rounded=1;horizontal=1;childLayout=stackLayout;startSize=26;html=0;swimlaneFillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="-13530" y="-8775" width="240" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="703" value="&#xa;&#xa;&#xa;&#xa;&#xa;Role_Permissions&#xa;&#xa;&#xa;[PK] (role_id, perm_id)&#xa;[FK] role_id -&gt; Roles.id&#xa;[FK] perm_id -&gt; Permissions.id" style="shape=swimlane;rounded=1;horizontal=1;childLayout=stackLayout;startSize=26;html=0;swimlaneFillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="-13530" y="-8595" width="260" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="704" value="&#xa;&#xa;&#xa;&#xa;&#xa;Staff_Profiles&#xa;[PK/FK] user_id -&gt; Users.id&#xa;employee_code: TEXT (U)&#xa;position: TEXT&#xa;hired_at: DATE" style="shape=swimlane;rounded=1;horizontal=1;childLayout=stackLayout;startSize=26;html=0;swimlaneFillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="-13950" y="-9115" width="260" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="705" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Customer_Profiles&#xa;&#xa;[PK/FK] user_id -&gt; Users.id&#xa;registered_at: TIMESTAMPTZ&#xa;loyalty_point: INT&#xa;dob: DATE&#xa;gender: {M,F,O}" style="shape=swimlane;rounded=1;horizontal=1;childLayout=stackLayout;startSize=26;html=0;swimlaneFillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="-13940" y="-8905" width="260" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="706" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Addresses&#xa;  &#xa;[PK] id: UUID&#xa;[FK] user_id -&gt; Users.id&#xa;label, line1, line2, city, state, postal, country&#xa;is_default: BOOL&#xa;created_at, updated_at" style="shape=swimlane;rounded=1;horizontal=1;childLayout=stackLayout;startSize=26;html=0;swimlaneFillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="-13930" y="-8655" width="300" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="707" value="&#xa;&#xa;&#xa;&#xa;&#xa;Categories&#xa;[PK] id: UUID&#xa;code: TEXT (U)&#xa;name: TEXT&#xa;description: TEXT" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-13110" y="-9135" width="240" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="708" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Products&#xa;--&#xa;[PK] id: UUID&#xa;sku: TEXT (U)&#xa;name: TEXT&#xa;price: NUMERIC(12,2)&#xa;category_id -&gt; Categories.id&#xa;created_at, updated_at" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-13110" y="-8945" width="280" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="709" value="&#xa;&#xa;&#xa;&#xa;Warehouses&#xa;--&#xa;[PK] id: UUID&#xa;name: TEXT&#xa;address: TEXT" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-13110" y="-8705" width="220" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="710" value="&#xa;&#xa;&#xa;&#xa;Inventory&#xa;--&#xa;[PK] (warehouse_id, product_id)&#xa;warehouse_id -&gt; Warehouses.id&#xa;product_id -&gt; Products.id&#xa;quantity: INT" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-13110" y="-8535" width="260" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="711" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Orders&#xa;--&#xa;[PK] id: UUID&#xa;customer_id -&gt; Users.id&#xa;shipping_address -&gt; Addresses.id&#xa;status: {PENDING,CONFIRMED,&#xa;FULFILLING,SHIPPED,COMPLETED,CANCELLED}&#xa;subtotal, shipping_fee, discount, total: NUMERIC&#xa;payment_method: {CASH,BANK_TRANSFER,&#xa;CREDIT_CARD,EWALLET}&#xa;created_at: TIMESTAMPTZ&#xa;note: TEXT" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="-13130" y="-8115" width="360" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="712" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Order_Items&#xa;&#xa;[PK] id: UUID&#xa;order_id -&gt; Orders.id&#xa;product_id -&gt; Products.id&#xa;quantity: INT&#xa;unit_price: NUMERIC&#xa;line_total: NUMERIC (generated)" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="-13070" y="-7805" width="300" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="713" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Payments&#xa;  &#xa;[PK] id: UUID&#xa;order_id -&gt; Orders.id&#xa;paid_at: TIMESTAMPTZ&#xa;method: ENUM&#xa;status: ENUM&#xa;amount: NUMERIC&#xa;gateway_ref: TEXT" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="-13050" y="-7505" width="260" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="714" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Shipments&#xa;  &#xa;[PK] id: UUID&#xa;order_id -&gt; Orders.id&#xa;carrier: TEXT&#xa;tracking_no: TEXT&#xa;status: ENUM&#xa;shipped_at: TIMESTAMPTZ&#xa;delivered_at: TIMESTAMPTZ" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="-13070" y="-7265" width="280" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="715" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Returns &#xa;   &#xa;[PK] id: UUID&#xa;order_id -&gt; Orders.id&#xa;reason: TEXT&#xa;status: ENUM&#xa;requested_at: TIMESTAMPTZ&#xa;processed_at: TIMESTAMPTZ" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="-13060" y="-6955" width="260" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="716" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Tickets&#xa;&#xa;[PK] id: UUID&#xa;customer_id -&gt; Users.id&#xa;channel_id -&gt; Channels.id&#xa;subject: TEXT&#xa;content: TEXT&#xa;status: {NEW,IN_PROGRESS,RESOLVED,CLOSED}&#xa;priority: {LOW,MEDIUM,HIGH,URGENT}&#xa;assignee_id -&gt; Users.id&#xa;created_at: TIMESTAMPTZ" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="-13520" y="-8395" width="340" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="717" value="&#xa;&#xa;&#xa;&#xa;&#xa;Conversations&#xa;&#xa;[PK] id: UUID&#xa;ticket_id -&gt; Tickets.id&#xa;started_at: TIMESTAMPTZ&#xa;ended_at: TIMESTAMPTZ" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="-13500" y="-8045" width="260" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="718" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Messages&#xa;&#xa;&#xa;[PK] id: UUID&#xa;conversation_id -&gt; Conversations.id&#xa;sender_id -&gt; Users.id&#xa;channel_id -&gt; Channels.id&#xa;kind: {CHATBOT,AGENT,CUSTOMER}&#xa;content: TEXT&#xa;sent_at: TIMESTAMPTZ" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="-13540" y="-7765" width="320" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="719" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Attachments&#xa;--&#xa;[PK] id: UUID&#xa;message_id -&gt; Messages.id&#xa;file_name: TEXT&#xa;mime_type: TEXT&#xa;url: TEXT&#xa;size_bytes: BIGINT" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="-13510" y="-7285" width="280" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="720" value="Journeys&#xa;--&#xa;[PK] id: UUID&#xa;name: TEXT&#xa;status: {DRAFT,ACTIVE,PAUSED,STOPPED,ARCHIVED}&#xa;created_by -&gt; Users.id&#xa;created_at: TIMESTAMPTZ" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="-12690" y="-9135" width="280" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="721" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Journey_Nodes&#xa;  &#xa;[PK] id: UUID&#xa;journey_id -&gt; Journeys.id&#xa;type: {ENTRY,FILTER,WAIT,&#xa;ACTION_EMAIL,ACTION_SMS,&#xa;ACTION_TAG,EXIT}&#xa;config: JSONB" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="-12690" y="-8905" width="300" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="722" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Journey_Edges&#xa;  &#xa;[PK] id: UUID&#xa;journey_id -&gt; Journeys.id&#xa;from_node -&gt; Journey_Nodes.id&#xa;to_node -&gt; Journey_Nodes.id&#xa;condition: JSONB" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="-12700" y="-8635" width="320" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="723" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Journey_Enrollments&#xa;  &#xa;[PK] id: UUID&#xa;journey_id -&gt; Journeys.id&#xa;user_id -&gt; Users.id&#xa;status: {RUNNING,COMPLETED,EXITED,PAUSED}&#xa;enrolled_at: TIMESTAMPTZ" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="-12690" y="-8155" width="320" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="724" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Campaign_Messages&#xa;&#xa;[PK] id: UUID&#xa;journey_id -&gt; Journeys.id&#xa;channel: ENUM&#xa;subject: TEXT&#xa;body_html: TEXT" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="-12680" y="-7775" width="300" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="725" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Campaign_Sends&#xa;  &#xa;[PK] id: UUID&#xa;message_id -&gt; Campaign_Messages.id&#xa;to_user_id -&gt; Users.id&#xa;status: {QUEUED,SENT,FAILED}&#xa;scheduled_at: TIMESTAMPTZ&#xa;sent_at: TIMESTAMPTZ&#xa;provider_ref: TEXT" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="-12700" y="-7535" width="320" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="726" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Alert_Rules&#xa;&#xa;[PK] id: UUID&#xa;kpi_id -&gt; KPI_Definitions.id&#xa;op: {&gt;,&gt;=,&lt;,&lt;=,=,!=}&#xa;threshold: NUMERIC&#xa;window_minutes: INT&#xa;severity: {INFO,WARN,CRITICAL}&#xa;active: BOOL&#xa;notify_channel: ENUM" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="-11320" y="-8955" width="320" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="727" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Routing_Rules&#xa;  &#xa;[PK] id: UUID&#xa;code: TEXT (U)&#xa;name: TEXT&#xa;priority: INT&#xa;predicate: JSONB&#xa;action: JSONB" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="-11950" y="-7755" width="300" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="728" value="&#xa;&#xa;&#xa;&#xa;Work_Queues&#xa;  &#xa;[PK] id: UUID&#xa;code: TEXT (U)&#xa;name: TEXT" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="-12270" y="-7755" width="240" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="729" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Assignments&#xa;&#xa;[PK] id: UUID&#xa;ticket_id -&gt; Tickets.id&#xa;queue_id -&gt; Work_Queues.id&#xa;assignee_id -&gt; Users.id&#xa;decided_by_rule -&gt; Routing_Rules.id&#xa;decided_at: TIMESTAMPTZ" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="-12280" y="-7505" width="300" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="730" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;KB_Articles&#xa;&#xa;[PK] id: UUID&#xa;code: TEXT (U)&#xa;title: TEXT&#xa;body_md: TEXT&#xa;created_by -&gt; Users.id&#xa;created_at: TIMESTAMPTZ&#xa;updated_at: TIMESTAMPTZ&#xa;is_public: BOOL" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#e6ffe6;strokeColor=#00a65a;" vertex="1" parent="1">
+                    <mxGeometry x="-12370" y="-9150" width="330" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="731" value="&#xa;&#xa;&#xa;KB_Tags&#xa;--&#xa;[PK] id: UUID&#xa;name: TEXT (U)" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#e6ffe6;strokeColor=#00a65a;" vertex="1" parent="1">
+                    <mxGeometry x="-12340" y="-8865" width="220" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="732" value="&#xa;&#xa;&#xa;&#xa;KB_Article_Tags&#xa;&#xa;[PK] (article_id, tag_id)&#xa;article_id -&gt; KB_Articles.id&#xa;tag_id -&gt; KB_Tags.id" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#e6ffe6;strokeColor=#00a65a;" vertex="1" parent="1">
+                    <mxGeometry x="-12000" y="-8865" width="280" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="733" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;KB_Article_Revisions&#xa;&#xa;[PK] id: UUID&#xa;article_id -&gt; KB_Articles.id&#xa;version: INT (unique per article)&#xa;title: TEXT&#xa;body_md: TEXT&#xa;edited_by -&gt; Users.id&#xa;edited_at: TIMESTAMPTZ" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#e6ffe6;strokeColor=#00a65a;" vertex="1" parent="1">
+                    <mxGeometry x="-12010" y="-9135" width="330" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="734" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;KB_Feedback&#xa; &#xa;[PK] id: UUID&#xa;article_id -&gt; KB_Articles.id&#xa;user_id -&gt; Users.id&#xa;helpful: BOOL&#xa;comment: TEXT&#xa;created_at: TIMESTAMPTZ" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#e6ffe6;strokeColor=#00a65a;" vertex="1" parent="1">
+                    <mxGeometry x="-12270" y="-8245" width="300" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="735" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Consents&#xa;&#xa;[PK] id: UUID&#xa;user_id -&gt; Users.id&#xa;kind: {EMAIL_MARKETING,SMS_MARKETING,&#xa;TRACKING,PII_SHARE}&#xa;granted: BOOL&#xa;captured_at: TIMESTAMPTZ&#xa;source: TEXT" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#cfe2f3;strokeColor=#3d85c6;" vertex="1" parent="1">
+                    <mxGeometry x="-13970" y="-8055" width="360" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="736" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Interaction_Events&#xa;  &#xa;[PK] id: UUID&#xa;user_id -&gt; Users.id&#xa;ticket_id -&gt; Tickets.id&#xa;message_id -&gt; Messages.id&#xa;raw_text: TEXT&#xa;created_at: TIMESTAMPTZ" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#ffe6f2;strokeColor=#d36da3;" vertex="1" parent="1">
+                    <mxGeometry x="-11630" y="-8645" width="360" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="737" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Sentiments&#xa;&#xa;[PK] id: UUID&#xa;event_id -&gt; Interaction_Events.id (unique)&#xa;label: {NEGATIVE,NEUTRAL,POSITIVE,MIXED}&#xa;score: 0..1&#xa;model_version: TEXT&#xa;inferred_at: TIMESTAMPTZ" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#ffe6f2;strokeColor=#d36da3;" vertex="1" parent="1">
+                    <mxGeometry x="-11620" y="-7875" width="340" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="738" value="&#xa;&#xa;&#xa;&#xa;&#xa;ML_Models&#xa;&#xa;[PK] id: UUID&#xa;name: TEXT&#xa;version: TEXT (unique with name)&#xa;created_at: TIMESTAMPTZ" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#ffe6f2;strokeColor=#d36da3;" vertex="1" parent="1">
+                    <mxGeometry x="-11580" y="-7525" width="260" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="739" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Predictions&#xa;&#xa;[PK] id: UUID&#xa;model_id -&gt; ML_Models.id&#xa;entity_table: TEXT&#xa;entity_id: UUID&#xa;label: TEXT&#xa;score: 0..1&#xa;created_at: TIMESTAMPTZ" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#ffe6f2;strokeColor=#d36da3;" vertex="1" parent="1">
+                    <mxGeometry x="-11610" y="-7175" width="320" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="740" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Analytics_Queue&#xa;&#xa;[PK] id: UUID&#xa;data_kind: TEXT&#xa;payload: JSONB&#xa;status: {PENDING,SENT,ERROR}&#xa;created_at: TIMESTAMPTZ&#xa;sent_at: TIMESTAMPTZ&#xa;error_msg: TEXT" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#d9ead3;strokeColor=#6aa84f;" vertex="1" parent="1">
+                    <mxGeometry x="-12040" y="-7205" width="340" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="741" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Webhooks&#xa;&#xa;[PK] id: UUID&#xa;name: TEXT&#xa;target_url: TEXT&#xa;secret: TEXT&#xa;active: BOOL" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#d9ead3;strokeColor=#6aa84f;" vertex="1" parent="1">
+                    <mxGeometry x="-12430" y="-7155" width="280" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="742" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Webhook_Events&#xa;&#xa;[PK] id: UUID&#xa;webhook_id -&gt; Webhooks.id&#xa;topic: TEXT&#xa;payload: JSONB&#xa;delivered_at: TIMESTAMPTZ&#xa;status: {PENDING,SENT,FAILED}&#xa;error_msg: TEXT" style="shape=swimlane;childLayout=stackLayout;horizontal=1;rounded=1;startSize=26;html=0;swimlaneFillColor=#d9ead3;strokeColor=#6aa84f;" vertex="1" parent="1">
+                    <mxGeometry x="-12010" y="-6785" width="320" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="743" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" parent="1" source="721" target="722">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="744" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" parent="1" source="716" target="736">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-11500" y="-8265"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="745" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" parent="1" source="718" target="736">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-11730" y="-7815"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="746" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" parent="1" source="736" target="737">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="747" style="edgeStyle=orthogonalEdgeStyle;rounded=0;startArrow=ERone;startFill=1;endArrow=ERmany;endFill=1;strokeWidth=1.2;" edge="1" parent="1" source="738" target="739">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM UI Demo</title>
+    <style>
+        /* Import fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@500&display=swap');
+
+        /* CSS Variables from tokens */
+        :root {
+            --color-primary: #2B6CB0;
+            --color-secondary: #48BB78;
+            --color-error: #E53E3E;
+            --color-background: #F7FAFC;
+            --color-text: #2D3748;
+            --color-border: #E2E8F0;
+            
+            --font-family: 'Inter', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+            
+            --radius-sm: 8px;
+            --radius-md: 12px;
+            --radius-lg: 16px;
+            
+            --spacing-sm: 8px;
+            --spacing-md: 16px;
+            --spacing-lg: 24px;
+            
+            --shadow-card: 0px 4px 12px rgba(0,0,0,0.06);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-family);
+            background-color: var(--color-background);
+            color: var(--color-text);
+            line-height: 1.6;
+        }
+
+        /* Navbar */
+        .navbar {
+            background: white;
+            border-bottom: 1px solid var(--color-border);
+            padding: var(--spacing-md) var(--spacing-lg);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: var(--shadow-card);
+        }
+
+        .navbar-brand {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--color-primary);
+        }
+
+        .navbar-menu {
+            display: flex;
+            gap: var(--spacing-lg);
+            list-style: none;
+        }
+
+        .navbar-menu a {
+            color: var(--color-text);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .navbar-menu a:hover {
+            color: var(--color-primary);
+        }
+
+        /* Layout */
+        .container {
+            max-width: 1440px;
+            margin: 0 auto;
+            padding: var(--spacing-lg);
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 250px 1fr;
+            gap: var(--spacing-lg);
+            margin-top: var(--spacing-lg);
+        }
+
+        /* Sidebar */
+        .sidebar {
+            background: white;
+            border-radius: var(--radius-md);
+            padding: var(--spacing-md);
+            box-shadow: var(--shadow-card);
+            height: fit-content;
+        }
+
+        .sidebar-menu {
+            list-style: none;
+        }
+
+        .sidebar-menu li {
+            padding: var(--spacing-sm) var(--spacing-md);
+            margin-bottom: var(--spacing-sm);
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .sidebar-menu li:hover,
+        .sidebar-menu li.active {
+            background: var(--color-background);
+            color: var(--color-primary);
+        }
+
+        /* Cards */
+        .card {
+            background: white;
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-md);
+            padding: var(--spacing-md);
+            box-shadow: var(--shadow-card);
+            margin-bottom: var(--spacing-md);
+        }
+
+        .card-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .card-content {
+            font-size: 16px;
+            color: var(--color-text);
+        }
+
+        /* Buttons */
+        .btn {
+            padding: 10px 16px;
+            border: none;
+            border-radius: var(--radius-sm);
+            font-family: var(--font-family);
+            font-weight: 600;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: var(--color-primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #2557a7;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(43, 108, 176, 0.3);
+        }
+
+        .btn-secondary {
+            background: var(--color-secondary);
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #38a169;
+        }
+
+        .btn-error {
+            background: var(--color-error);
+            color: white;
+        }
+
+        /* Grid Layout */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: var(--spacing-md);
+        }
+
+        /* Table */
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            box-shadow: var(--shadow-card);
+        }
+
+        .table th,
+        .table td {
+            padding: var(--spacing-md);
+            text-align: left;
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .table th {
+            background: var(--color-background);
+            font-weight: 600;
+        }
+
+        .table tr:hover {
+            background: var(--color-background);
+        }
+
+        /* Tabs */
+        .tabs {
+            display: flex;
+            gap: var(--spacing-sm);
+            margin-bottom: var(--spacing-md);
+            border-bottom: 2px solid var(--color-border);
+        }
+
+        .tab {
+            padding: var(--spacing-sm) var(--spacing-md);
+            background: transparent;
+            border: none;
+            font-family: var(--font-family);
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s;
+            border-bottom: 2px solid transparent;
+            margin-bottom: -2px;
+        }
+
+        .tab.active {
+            color: var(--color-primary);
+            border-bottom-color: var(--color-primary);
+        }
+
+        /* Dashboard Stats */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--spacing-md);
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .stat-card {
+            background: white;
+            padding: var(--spacing-md);
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-card);
+        }
+
+        .stat-value {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--color-primary);
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: #718096;
+            margin-top: var(--spacing-sm);
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: var(--spacing-md);
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: var(--spacing-md);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-brand">CRM System</div>
+        <ul class="navbar-menu">
+            <li><a href="#customer">Customer</a></li>
+            <li><a href="#staff">Staff</a></li>
+            <li><a href="#admin">Admin</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- Tabs for switching views -->
+        <div class="tabs">
+            <button class="tab active" onclick="showView('customer')">Customer View</button>
+            <button class="tab" onclick="showView('staff')">Staff View</button>
+            <button class="tab" onclick="showView('admin')">Admin View</button>
+        </div>
+
+        <!-- Customer View -->
+        <div id="customer-view" class="view-content">
+            <div class="main-content">
+                <!-- Sidebar -->
+                <aside class="sidebar">
+                    <ul class="sidebar-menu">
+                        <li class="active">🏠 Trang chủ</li>
+                        <li>🛍️ Sản phẩm</li>
+                        <li>🛒 Giỏ hàng</li>
+                        <li>📦 Đơn hàng</li>
+                        <li>💬 Hỗ trợ</li>
+                    </ul>
+                </aside>
+
+                <!-- Main Content -->
+                <main>
+                    <h1>Chào mừng đến với CRM</h1>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-value">24</div>
+                            <div class="stat-label">Sản phẩm mới</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">5</div>
+                            <div class="stat-label">Đơn hàng</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">12</div>
+                            <div class="stat-label">Yêu thích</div>
+                        </div>
+                    </div>
+
+                    <h2>Sản phẩm nổi bật</h2>
+                    <div class="grid">
+                        <div class="card">
+                            <div class="card-title">Sản phẩm A</div>
+                            <div class="card-content">
+                                Mô tả sản phẩm với các tính năng nổi bật
+                            </div>
+                            <div style="margin-top: 16px;">
+                                <button class="btn btn-primary">Xem chi tiết</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-title">Sản phẩm B</div>
+                            <div class="card-content">
+                                Mô tả sản phẩm với các tính năng nổi bật
+                            </div>
+                            <div style="margin-top: 16px;">
+                                <button class="btn btn-primary">Xem chi tiết</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-title">Sản phẩm C</div>
+                            <div class="card-content">
+                                Mô tả sản phẩm với các tính năng nổi bật
+                            </div>
+                            <div style="margin-top: 16px;">
+                                <button class="btn btn-primary">Xem chi tiết</button>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+
+        <!-- Staff View -->
+        <div id="staff-view" class="view-content" style="display: none;">
+            <div class="main-content">
+                <aside class="sidebar">
+                    <ul class="sidebar-menu">
+                        <li class="active">📊 Dashboard</li>
+                        <li>📋 Đơn hàng</li>
+                        <li>💬 Phản hồi</li>
+                        <li>📧 Chiến dịch Email</li>
+                        <li>📈 Báo cáo</li>
+                    </ul>
+                </aside>
+
+                <main>
+                    <h1>Staff Dashboard</h1>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-value">156</div>
+                            <div class="stat-label">Đơn hàng hôm nay</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">23</div>
+                            <div class="stat-label">Cần xử lý</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">89%</div>
+                            <div class="stat-label">Hài lòng</div>
+                        </div>
+                    </div>
+
+                    <h2>Đơn hàng gần đây</h2>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Mã đơn</th>
+                                <th>Khách hàng</th>
+                                <th>Trạng thái</th>
+                                <th>Tổng tiền</th>
+                                <th>Hành động</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>#ORD-001</td>
+                                <td>Nguyễn Văn A</td>
+                                <td>Đang xử lý</td>
+                                <td>1,500,000đ</td>
+                                <td><button class="btn btn-primary">Xem</button></td>
+                            </tr>
+                            <tr>
+                                <td>#ORD-002</td>
+                                <td>Trần Thị B</td>
+                                <td>Hoàn thành</td>
+                                <td>2,300,000đ</td>
+                                <td><button class="btn btn-primary">Xem</button></td>
+                            </tr>
+                            <tr>
+                                <td>#ORD-003</td>
+                                <td>Lê Văn C</td>
+                                <td>Đang giao</td>
+                                <td>890,000đ</td>
+                                <td><button class="btn btn-primary">Xem</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </main>
+            </div>
+        </div>
+
+        <!-- Admin View -->
+        <div id="admin-view" class="view-content" style="display: none;">
+            <div class="main-content">
+                <aside class="sidebar">
+                    <ul class="sidebar-menu">
+                        <li class="active">📊 Dashboard</li>
+                        <li>👥 Quản lý người dùng</li>
+                        <li>📦 Quản lý sản phẩm</li>
+                        <li>🤖 Cấu hình AI</li>
+                        <li>📈 Phân tích</li>
+                    </ul>
+                </aside>
+
+                <main>
+                    <h1>Admin Dashboard</h1>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-value">1,247</div>
+                            <div class="stat-label">Tổng người dùng</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">456</div>
+                            <div class="stat-label">Sản phẩm</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">98.5%</div>
+                            <div class="stat-label">Uptime</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">₫45M</div>
+                            <div class="stat-label">Doanh thu tháng</div>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; gap: 16px; margin-bottom: 24px;">
+                        <button class="btn btn-primary">Thêm người dùng</button>
+                        <button class="btn btn-secondary">Thêm sản phẩm</button>
+                        <button class="btn btn-primary">Xuất báo cáo</button>
+                    </div>
+
+                    <h2>Quản lý hệ thống</h2>
+                    <div class="grid">
+                        <div class="card">
+                            <div class="card-title">Người dùng</div>
+                            <div class="card-content">
+                                Quản lý tài khoản, phân quyền và bảo mật
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-title">Sản phẩm</div>
+                            <div class="card-content">
+                                Quản lý kho, danh mục và giá cả
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-title">AI Configuration</div>
+                            <div class="card-content">
+                                Cấu hình RAG, chatbot và khuyến nghị
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showView(viewName) {
+            // Hide all views
+            document.querySelectorAll('.view-content').forEach(view => {
+                view.style.display = 'none';
+            });
+            
+            // Remove active class from all tabs
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Show selected view
+            document.getElementById(viewName + '-view').style.display = 'block';
+            
+            // Add active class to clicked tab
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>
